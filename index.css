@@ -4,4 +4,10 @@
     scale:0.3;
 rotate: 20deg;
 }
+.catpic2 {
+    filter:hue-rotate(180deg);
+scale: 0.2;
+rotate: 60deg;
+margin-top: -1600px;
+}
 
