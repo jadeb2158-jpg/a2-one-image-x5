@@ -1,3 +1,18 @@
+/* Global Styles */
+body {
+    background-color: rgb(139, 17, 17);
+    background-image: url(catlizard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    word-break: break-all;
+    font-family: fantasy;
+    writing-mode: vertical-lsr;
+}
+
 /* Class Selectors */
 .catpic1 {
     filter: blur(5px);
@@ -17,5 +32,9 @@ scale: 0.4;
 rotate: 35deg;
 margin-top: -3200px;
 opacity: calc(1 - 0.2);
+background-image: none;
+background-repeat:repeat-x;
+
+
 }
     
